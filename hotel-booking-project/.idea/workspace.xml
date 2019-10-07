@@ -34,6 +34,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
@@ -56,13 +63,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RoomServiceApplication">
+  <component name="RunManager" selected="Application.HotelBookingServiceApplication">
     <configuration name="EurekaServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.trilogyed.eurekaserver.EurekaServerApplication" />
       <module name="eureka-server.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.trilogyed.eurekaserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HotelBookingServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.hotelbookingservice.HotelBookingServiceApplication" />
+      <module name="hotel-booking-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.hotelbookingservice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,6 +118,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HotelBookingServiceApplication" />
         <item itemvalue="Application.RoomServiceApplication" />
         <item itemvalue="Application.RewardsServiceApplication" />
         <item itemvalue="Application.EurekaServerApplication" />
