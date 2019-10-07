@@ -10,7 +10,7 @@ import java.util.List;
 @FeignClient( name = "room-service")
 public interface RoomClient {
     @GetMapping(value = "/room/{number}")
-    Room getRoom();
+    Room getRoom(Integer number);
 
     @GetMapping(value = "/room")
     List<Room> getAllRooms();
