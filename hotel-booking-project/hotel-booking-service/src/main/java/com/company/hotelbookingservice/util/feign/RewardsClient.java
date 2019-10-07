@@ -10,7 +10,7 @@ import java.util.List;
 @FeignClient(name = "rewards-service")
 public interface RewardsClient {
     @GetMapping(value = "/rewards/type/{roomType}")
-    Rewards getrewards();
+    Rewards getRewards(String roomType);
 
     @GetMapping(value = "/rewards")
     List<Rewards> getAllRewards(); 
